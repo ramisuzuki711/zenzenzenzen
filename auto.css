@@ -1,0 +1,120 @@
+* {
+  box-sizing:border-box;
+}
+
+body{
+  font-family: serif;
+}
+
+.container{
+  max-width: 1170px;
+  width: 100%;
+  margin:auto;
+}
+
+.header img {
+  float: left;
+  width: 125px;
+  padding: 5px;
+}
+
+.header {
+  height: 80px;
+  width: 100%;
+  position:fixed;
+  top:0;
+  z-index: 10;
+  background-color: white;
+
+}
+
+
+.header-list li {
+  list-style: none;
+  float: left;
+  padding-top: 10px;
+  padding-left: 20px;
+  font-size:15px;
+
+}
+
+.clear{
+  clear:left;
+}
+
+.main {
+  text-align: center;
+}
+
+.main img{
+  margin-top: 100px;
+  width: 500px;
+  height: 400px;
+}
+
+.copy-container h1{
+  font-size: 20px;
+  padding-top: 80px;
+
+}
+
+.copy-container span{
+  color:red;
+}
+
+.copy-container h2{
+  padding:100px;
+  font-size:13px;
+
+}
+
+.contents p{
+  padding-top:80px;
+  padding-bottom: 10px;
+  margin-left: 50px;
+  border-bottom: 2px solid #dee7ec;
+}
+
+.gaiyou h4{
+  padding-top: 20px;
+  font-size: 10px;
+  padding-left: 80px;
+}
+
+
+.contents img{
+  padding-left: 100px;
+  padding-top: 30px;
+  width: 30%;
+}
+
+
+.contact-form h1{
+  padding-left: 100px;
+
+}
+
+.contact-form h1{
+  font-size: 150%;
+
+}
+.contact-form{
+  padding-left: 50px;
+}
+
+
+.input textarea {
+  width:600px;
+  font-size:18px;
+
+}
+
+.contact-submit {
+  background:#dee7ec;
+  color:#889eab;
+}
+
+
+footer {
+
+}
